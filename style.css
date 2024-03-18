@@ -1,0 +1,26 @@
+#main{
+    width: 60%;
+    height: 70vh;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#main img{
+    width: 100%;
+    height: 70vh;
+}
+#smallPictures{
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+#smallPictures span{
+    width: 30%;
+    border-radius: 50%;
+}
+#smallPictures img{
+    width: 100%;
+    border-radius: 50%;
+}
